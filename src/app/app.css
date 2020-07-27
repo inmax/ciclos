@@ -1,3 +1,10 @@
 html, body, #root {
   height: 100%;
+  --my-app-card-theme--Color: #DC143C;
+  --pf-c-page__header--BackgroundColor: purple;
+}
+.pf-c-page__header{
+  --my-app-card-theme--Color: #DC143C;
+  --pf-c-page__header--BackgroundColor: purple;
+  background-color: --pf-global--palette--black-100;
 }

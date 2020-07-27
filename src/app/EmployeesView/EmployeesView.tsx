@@ -13,7 +13,18 @@ import {
   TableBody,
   TableVariant
 } from '@patternfly/react-table';
-
+import {
+  BellIcon,
+  CodeBranchIcon,
+  CodeIcon,
+  CogIcon,
+  CubeIcon,
+  CheckCircleIcon,
+  ExclamationTriangleIcon,
+  FilterIcon,
+  SearchIcon,
+  TimesCircleIcon
+} from '@patternfly/react-icons';
 export interface ISupportProps {
   sampleProp?: string;
 }
@@ -24,11 +35,15 @@ const EmployeesView: React.FunctionComponent<ISupportProps> = () => {
     '',
     'Nombre',
     'Hábito',
-    'Nº Ciclos / semana' // deliberately empty
+    'Nº Ciclos / semana' // deliberately empty<FontAwesomeIcon icon={faUserCircle} size="lg"/>
   ];
   const rows = [[{
-    title: <FontAwesomeIcon icon={faUserCircle} size="lg"/>
-  }, 'Manolo López', 'three', '2'], ['one', 'two', 'three', 'four'], ['one', 'two', 'three', '8']]
+    title: <Avatar src="https://api.adorable.io/avatars/285/abott@adorable.png" alt="avatar"></Avatar>
+  }, 'Manolo López', 'three', '2'], [{
+    title: <Avatar src="https://api.adorable.io/avatars/285/abott@adorable.png" alt="avatar"></Avatar>
+  }, 'María Martinez', 'three', 'four'], [{
+    title: <Avatar src="https://api.adorable.io/avatars/285/abott@adorable.png" alt="avatar"></Avatar>
+  }, 'María Martinez', 'three', '8']]
 
   return (
     <PageSection>
