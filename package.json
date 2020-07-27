@@ -75,13 +75,18 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@patternfly/react-charts": "^6.6.0",
     "@patternfly/react-core": "^4.32.1",
     "@patternfly/react-icons": "^4.5.0",
     "@patternfly/react-styles": "^4.5.0",
+    "@patternfly/react-table": "^4.12.1",
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-fontawesome": "^1.7.1",
     "react-router-last-location": "^2.0.1"
   }
 }
